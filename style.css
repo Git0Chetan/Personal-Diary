@@ -60,16 +60,21 @@ button:hover{
 ul{
     list-style: none;
     padding: 0;
+    width: inherit;
 }
-li{
+ul li{
     display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 10px 0;
-padding: 10px;
-background-color: #f9f9f9;
-border: 1px solid #d8c8c8;
-border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #d8c8c8;
+    border-radius: 10px;
+}
+ul li span{
+    text-wrap: wrap;
+    overflow-x:hidden;
 }
 
 footer{
